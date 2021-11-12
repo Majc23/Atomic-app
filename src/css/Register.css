@@ -1,0 +1,159 @@
+:root{
+    --color: rgb(250, 77, 9);
+    --color1:rgb(10, 34, 64);
+    --color2:rgb(0, 96, 156);
+  }
+
+.cointainerreg{
+    height: 655px;
+    width: 700px;
+    display: flex;
+    flex-flow: column ;
+    justify-content: center;
+    align-items: flex-start;
+    margin: -50px 0 0 40px;
+  
+  }
+.congen{
+    display: flex;
+}
+
+.barra{
+    width: 100%;
+}
+
+.shelfreg{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20px;
+    width: 100%;
+    margin: -50px 0 10px 0;
+    justify-content:space-evenly;
+  }
+
+  h2{
+      margin: 5px;
+  }
+  .h5reg{
+      font-size: 23px;
+      margin: 50px 0 0 10px;
+      color: white;
+  }
+
+.labelreg{
+    font-size: 18px;
+    margin: 50px 0 0 10px;
+    color: white;
+}
+
+.labelreg2{
+    font-size: 18px;
+    margin: 0px 0 0 10px;
+    color: white;
+}
+
+  .divshelfreg{  
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+  }
+
+  .shelfimagereg{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    background-size:cover ;
+    background-position: center ;
+
+}
+
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 15px;
+	width: 100%;
+}
+
+.progress-done {
+	background: var(--color);
+	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+
+.titlereg{
+        margin: 10px 0 0 0;
+        font-family:serif;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 35px;
+        font-weight: bold;
+}
+
+.imagefootreg{
+    width: 50px;
+    height: 50px;
+    margin: -10px 20px 0 00px;
+}
+
+.cambioreg{
+    color:var(--color);
+    font-weight:800;
+    line-height: 5px;
+    margin: 0 0 0 0;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
+  
+.mantenerreg{
+    color:white;
+    line-height: 5px;
+    margin: 0 10px 0 0;
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
+
+.inputs{
+        width: 350px;
+        display: flex;
+        flex-flow: column wrap;   
+  }
+
+.inputsreg{
+    margin: 3px 0 0 10px;
+}
+
+.boton2reg {
+    margin:  90px 0px 0px 520px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: var(--color);
+    font-weight: 800;
+    font-size: 15px;
+  }
+
+.imgreg1{
+    margin: 00px 0 0px 0px;
+    position: relative;
+    flex-grow: 7;
+    height: 400px;
+    width: 300px;
+    background-size:cover ;
+    background-position: center ;
+    
+  }
